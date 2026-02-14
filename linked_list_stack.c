@@ -18,8 +18,10 @@ int main(){
     printf("=== STACK PROGRAM ===\n\n");
     while(1){
         printf("1. Push\n");
-        printf("2 Pop\n");
-        printf("3. Exit\n");
+        printf("2. Pop\n");
+        printf("3. peek\n");
+        printf("4. is empty\n");
+        printf("5. Exit\n");
         printf("Enter your choice: "); scanf("%d", &choice);
 
         switch(choice){
